@@ -21,9 +21,7 @@ The workflow includes:
 
 ## Repository structure
 
-- `/code` - scripts and notebooks used for processing and analysis  
-- `/data` - processed datasets used for modelling (raw LAI data not included)  
-- `/outputs` - figures and model outputs  
+- `LAI.ipynb` - full workflow for data processing, analysis, and figure generation
 
 ## Data availability
 
@@ -31,4 +29,4 @@ The field LAI dataset was provided by Pallavi et al. (2024) and is not included 
 
 ## Reproducibility
 
-All scripts are provided to reproduce the results presented in the dissertation. Satellite data are accessed through Google Earth Engine.
+ `LAI.ipynb` reproduces the results presented in the dissertation. Satellite data are accessed and processed using Google Earth Engine.
